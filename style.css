@@ -1,0 +1,34 @@
+
+body {
+    background-image:url("https://drive.google.com/file/d/1IXgWd32lakxeS_K75sgGaeTVTu-2Eu8p/view?usp=sharing");
+}
+
+.wish {
+
+    top: 4%;
+    width: 50%;
+    text-align: center;
+    font-size: 4em;
+    color: blue;
+    letter-spacing: 0.1em;
+    font-family: 'Pacifico', cursive;
+    background: -webkit-linear-gradient(#ffff00, #ff1493);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 3s infinite ease-in-out;
+}
+
+@-webkit-keyframes hue {
+    0% {
+        -webkit-filter: hue-rotate(0deg);
+        transform: scale(1) rotate(0deg);
+    }
+
+    50% {
+        -webkit-filter: hue-rotate(360deg);
+        transform: scale(1.2) rotate(360deg);
+    }
+}
+
+
+  
